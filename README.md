@@ -78,11 +78,10 @@ Ce projet utilise l'algorithme de Dijkstra modifié. Projet réalisé avec Adrie
       l’algorithme de Dijkstra.
       Pour se déplacer sur un réseau, il suffit de choisir une artère dans l’arraylist tabArtere d’un 
       appareil et de devenir l’appareil de l’autre côté de l'artère.
-      Un commutateur est représenté de cette manière: 
-
+ Un commutateur est représenté de cette manière: 
  ![Capture d'écran 2024-04-20 085646](https://github.com/DezJDev/ReseauDynamique/assets/144434644/6b487746-8cd3-4356-b1e3-098839a2b234)
-      Un ordinateur est représenté de cette manière: 
-
+      
+Un ordinateur est représenté de cette manière: 
   ![Capture d'écran 2024-04-20 085709](https://github.com/DezJDev/ReseauDynamique/assets/144434644/29623db0-dd17-45f0-9513-43c4f8d8c085)
       
 
