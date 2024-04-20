@@ -163,13 +163,11 @@ Un ordinateur est représenté de cette manière:
     A l’aise avec les algorithmes liés au graph, nous n’avons pas rencontré de difficultés.
     Nous avons apporté une attention à l’interface homme machine et avons restreint les
     actions que peuvent effectuer les utilisateurs. Cependant le cas ou un commutateur 
-    est un point de passage obligatoire n’est pas géré et cela créer une erreure quand 
+    est un point de passage obligatoire n’est pas géré et cela créer une erreur quand 
     on essaie d’en faire la table de routage.
     Il pourrait être intéressant de rajouter un réseau par défaut pour tester le programme
     dans les mêmes conditions lors de l’ajout d’une fonctionnalité. Il faudrait aussi 
     pouvoir ajouter plus de 26 appareils. Il suffirait de rajouter une lettre au nom des 
     appareils. Cela n’a pas été fait car les lettres dépasseraient des cercles et nous 
     avons jugé que 26 appareils seraient suffisant pour dans notre contexte.
-    Il aurait été pratique de pouvoir créer un réseau depuis une classe java ou un fichier.
-    Cela n’a pas été effectué car on a manqué de temps.
     Merci pour votre attention.
