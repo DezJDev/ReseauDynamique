@@ -132,7 +132,7 @@ Un ordinateur est représenté de cette manière:
 
 ![Capture d'écran 2024-04-20 090919](https://github.com/DezJDev/ReseauDynamique/assets/144434644/5c529f72-1180-4e45-918b-8978a39145ac)
 
-Dans ce réseau le chemin le plus court entre A et F est:
+    Dans ce réseau le chemin le plus court entre A et F est:
 
 ![Capture d'écran 2024-04-20 090940](https://github.com/DezJDev/ReseauDynamique/assets/144434644/3288c87f-9849-4cc3-93c6-ddf3401389ef)
 
@@ -140,19 +140,19 @@ Dans ce réseau le chemin le plus court entre A et F est:
 
 ![Capture d'écran 2024-04-20 091142](https://github.com/DezJDev/ReseauDynamique/assets/144434644/c9d429f1-6bd1-4e00-9b97-ddb015c30f05)
 
-  Cette classe est similaire à la classe précédente, mais l’algorithme de Dijkstra à été modifié 
-  afin de ne pas passer par le commutateur dont on fait la table de routage.
-  Quand on fait la table de routage du commutateur A, on met la distance du commutateur à 0
-  et on le place dans l’arrayList des commutateurs visités. L’algorithme de dijkstra est alors 
-  exécuté sur chaque voisin du commutateur A pour chaque commutateur du réseau.
-  L’algorithme retourne alors une route à laquelle on ajoute A et le poids de l'artère entre A et 
-  chaque voisin.
-  Chaque route est placée dans une arrayList pour chaque commutateur. Ces arrayList sont 
-  triées en fonction de leur poids.
-  A la fin on a donc une ArrayList contenant des ArrayList triées contenant des routes. Il y une
-  route par voisin de A pour chaque commutateur du réseau. Le premier commutateur de 
-  chaque route est un voisin de A. En récupérant ceux de chaque route on a l’ordre dans 
-  lequel les voisins sont par rapport à chaque commutateur du réseau.
+    Cette classe est similaire à la classe précédente, mais l’algorithme de Dijkstra à été modifié 
+    afin de ne pas passer par le commutateur dont on fait la table de routage.
+    Quand on fait la table de routage du commutateur A, on met la distance du commutateur à 0
+    et on le place dans l’arrayList des commutateurs visités. L’algorithme de dijkstra est alors 
+    exécuté sur chaque voisin du commutateur A pour chaque commutateur du réseau.
+    L’algorithme retourne alors une route à laquelle on ajoute A et le poids de l'artère entre A et 
+    chaque voisin.
+    Chaque route est placée dans une arrayList pour chaque commutateur. Ces arrayList sont 
+    triées en fonction de leur poids.
+    A la fin on a donc une ArrayList contenant des ArrayList triées contenant des routes. Il y une
+    route par voisin de A pour chaque commutateur du réseau. Le premier commutateur de 
+    chaque route est un voisin de A. En récupérant ceux de chaque route on a l’ordre dans 
+    lequel les voisins sont par rapport à chaque commutateur du réseau.
 
 ![Capture d'écran 2024-04-20 091214](https://github.com/DezJDev/ReseauDynamique/assets/144434644/08babcb0-3bbc-44f3-8baa-fbb0155209c1)
 
@@ -160,16 +160,16 @@ Dans ce réseau le chemin le plus court entre A et F est:
 
 ![Capture d'écran 2024-04-20 091247](https://github.com/DezJDev/ReseauDynamique/assets/144434644/d3dc74e5-79eb-49ac-8708-0419f26f155d)
 
-  A l’aise avec les algorithmes liés au graph, nous n’avons pas rencontré de difficultés.
-  Nous avons apporté une attention à l’interface homme machine et avons restreint les
-  actions que peuvent effectuer les utilisateurs. Cependant le cas ou un commutateur 
-  est un point de passage obligatoire n’est pas géré et cela créer une erreure quand 
-  on essaie d’en faire la table de routage.
-  Il pourrait être intéressant de rajouter un réseau par défaut pour tester le programme
-  dans les mêmes conditions lors de l’ajout d’une fonctionnalité. Il faudrait aussi 
-  pouvoir ajouter plus de 26 appareils. Il suffirait de rajouter une lettre au nom des 
-  appareils. Cela n’a pas été fait car les lettres dépasseraient des cercles et nous 
-  avons jugé que 26 appareils seraient suffisant pour dans notre contexte.
-  Il aurait été pratique de pouvoir créer un réseau depuis une classe java ou un fichier.
-  Cela n’a pas été effectué car on a manqué de temps.
-  Merci pour votre attention.
+    A l’aise avec les algorithmes liés au graph, nous n’avons pas rencontré de difficultés.
+    Nous avons apporté une attention à l’interface homme machine et avons restreint les
+    actions que peuvent effectuer les utilisateurs. Cependant le cas ou un commutateur 
+    est un point de passage obligatoire n’est pas géré et cela créer une erreure quand 
+    on essaie d’en faire la table de routage.
+    Il pourrait être intéressant de rajouter un réseau par défaut pour tester le programme
+    dans les mêmes conditions lors de l’ajout d’une fonctionnalité. Il faudrait aussi 
+    pouvoir ajouter plus de 26 appareils. Il suffirait de rajouter une lettre au nom des 
+    appareils. Cela n’a pas été fait car les lettres dépasseraient des cercles et nous 
+    avons jugé que 26 appareils seraient suffisant pour dans notre contexte.
+    Il aurait été pratique de pouvoir créer un réseau depuis une classe java ou un fichier.
+    Cela n’a pas été effectué car on a manqué de temps.
+    Merci pour votre attention.
