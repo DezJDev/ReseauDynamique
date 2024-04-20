@@ -80,21 +80,21 @@ Ce projet utilise l'algorithme de Dijkstra modifié. Projet réalisé avec Adrie
       appareil et de devenir l’appareil de l’autre côté de l'artère.
       Un commutateur est représenté de cette manière: 
 
-      ![Capture d'écran 2024-04-20 085646](https://github.com/DezJDev/ReseauDynamique/assets/144434644/6b487746-8cd3-4356-b1e3-098839a2b234)
+ ![Capture d'écran 2024-04-20 085646](https://github.com/DezJDev/ReseauDynamique/assets/144434644/6b487746-8cd3-4356-b1e3-098839a2b234)
       Un ordinateur est représenté de cette manière: 
 
-      ![Capture d'écran 2024-04-20 085709](https://github.com/DezJDev/ReseauDynamique/assets/144434644/29623db0-dd17-45f0-9513-43c4f8d8c085)
+  ![Capture d'écran 2024-04-20 085709](https://github.com/DezJDev/ReseauDynamique/assets/144434644/29623db0-dd17-45f0-9513-43c4f8d8c085)
       
 
       2.4.3- Les artères:
 
-      ![Capture d'écran 2024-04-20 085752](https://github.com/DezJDev/ReseauDynamique/assets/144434644/9d05b029-bcc3-4d77-b325-4c294c5b59c4)
+  ![Capture d'écran 2024-04-20 085752](https://github.com/DezJDev/ReseauDynamique/assets/144434644/9d05b029-bcc3-4d77-b325-4c294c5b59c4)
       
       Elles permettent de relier des appareils entre eux. Leur id est égale à l’id de l’appareil A collé
       à l’idée de l’appareil B.
       Exemple: Une artère reliant le commutateur A et le commutateur B a comme id AB.
 
-      ![Capture d'écran 2024-04-20 085949](https://github.com/DezJDev/ReseauDynamique/assets/144434644/a2217ff5-1e71-4acd-bccb-ece92ecfa454)
+   ![Capture d'écran 2024-04-20 085949](https://github.com/DezJDev/ReseauDynamique/assets/144434644/a2217ff5-1e71-4acd-bccb-ece92ecfa454)
 
   ### 2.5- Une route:
 
